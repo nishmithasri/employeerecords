@@ -1,0 +1,18 @@
+<mvc:View controllerName="employeerecords.controller.employeeDetails"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="" title="{i18n>empD}">
+        <Label text="Label" labelFor="usernameinput"></Label>
+        <Input id="usernameinput" value="Bheem"/>
+
+    <Input type="Text" value="Bheem" width="10rem"></Input>
+        <content />
+        <footer>
+        <Bar>
+        <contentLeft>
+        <Button text="Previous" press="onView1"></Button>
+        </contentLeft>
+        </Bar>
+        </footer>
+    </Page>
+</mvc:View>
